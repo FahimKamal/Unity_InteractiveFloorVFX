@@ -1010,6 +1010,7 @@ GameObject:
   - component: {fileID: 1441583284}
   - component: {fileID: 1441583283}
   - component: {fileID: 1441583282}
+  - component: {fileID: 1441583285}
   m_Layer: 0
   m_Name: Magical Library
   m_TagString: Untagged
@@ -1091,6 +1092,12 @@ VisualEffect:
       - m_Value: {x: 0, y: 1.8754048, z: 14.806407}
         m_Name: Bounding Box_center
         m_Overridden: 1
+      - m_Value: {x: -1.57, y: 0.122, z: -2.1}
+        m_Name: PlayerPosition
+        m_Overridden: 1
+      - m_Value: {x: -1.57, y: 0.122, z: -2.1}
+        m_Name: playerPos
+        m_Overridden: 1
     m_Vector4f:
       m_Array: []
     m_Uint:
@@ -1122,6 +1129,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1441583285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441583281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ffa34db13549249b810b8dd0b105d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPosition: {fileID: 1762682259}
+  visualEffect: {fileID: 1441583283}
 --- !u!1001 &1762682258
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1205,6 +1226,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
+--- !u!4 &1762682259 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544,
+    type: 3}
+  m_PrefabInstance: {fileID: 1762682258}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2135591155
 GameObject:
   m_ObjectHideFlags: 0
