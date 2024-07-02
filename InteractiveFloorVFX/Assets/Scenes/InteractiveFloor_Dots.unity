@@ -930,6 +930,9 @@ VisualEffect:
       - m_Value: 0.74
         m_Name: Max Size
         m_Overridden: 1
+      - m_Value: 0.5
+        m_Name: AnimationSpeed
+        m_Overridden: 1
     m_Vector2f:
       m_Array: []
     m_Vector3f:
